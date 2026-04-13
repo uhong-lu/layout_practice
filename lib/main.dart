@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'button_section.dart';
+import 'image_section.dart';
 import 'text_section.dart';
 import 'title_section.dart';
 
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
         body: const SingleChildScrollView(
           child: Column(
             children: [
+              ImageSection(image: 'images/lake.jpg'),
               TitleSection(
                 name: 'Oeschinen Lake Campground',
                 location: 'Kandersteg, Switzerland',
